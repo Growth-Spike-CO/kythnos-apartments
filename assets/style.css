@@ -84,9 +84,9 @@ form.bk .full{grid-column:1/-1}
 /* footer */
 footer.ft{background:var(--masthead);color:rgba(255,255,255,.82);padding:54px 0 26px;margin-top:40px}
 footer.ft img{height:54px;margin-bottom:14px}
-.ftgrid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr 1fr;gap:28px}
+.ftgrid{display:grid;grid-template-columns:1.5fr repeat(5,1fr);gap:26px}
 .ft-brand{grid-column:auto}
-@media(max-width:980px){.ftgrid{grid-template-columns:1fr 1fr 1fr}.ft-brand{grid-column:1/-1}}
+@media(max-width:980px){.ftgrid{grid-template-columns:repeat(3,1fr)}.ft-brand{grid-column:1/-1}}
 @media(max-width:620px){.ftgrid{grid-template-columns:1fr 1fr}}
 footer.ft h4{color:#fff;font-size:.95rem;margin-bottom:12px;font-family:'Manrope';text-transform:uppercase;letter-spacing:.08em}
 footer.ft a{color:rgba(255,255,255,.82);display:block;padding:3px 0;font-size:.92rem}footer.ft a:hover{color:#fff}
