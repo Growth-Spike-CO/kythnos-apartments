@@ -1,4 +1,2 @@
 User-agent: *
-Allow: /
-
-Sitemap: https://patrykwajs.github.io/kythnos-apartments/sitemap.xml
+Disallow: /
